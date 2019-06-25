@@ -14,16 +14,12 @@ class ListNode{
     }
 }
 public class NO2 {
-    public static void main(String[] args) {
-
-    }
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2){
         ListNode head = null;
         ListNode result = null;
         int current = 0;
         int carry = 0;
-        while(l1 != null || l2 != null || carry != 0){
+        while( l1 != null || l2 != null || carry!= 0 ){
             current = current + carry;
             if(l1 != null){
                 current = current + l1.val;
@@ -33,7 +29,7 @@ public class NO2 {
                 current = current + l2.val;
                 l2 = l2.next;
             }
-            carry = current / 10;
+            carry = current /10;
             current = current % 10;
             if(result == null){
                 result = new ListNode(current);
