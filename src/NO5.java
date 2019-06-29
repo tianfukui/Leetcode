@@ -10,12 +10,7 @@ import java.util.Scanner;
 //    Output: "bb"
 public class NO5 {
     public static String longestPalindrome(String s) {
-        String ans;
-        String reversed = "";
-        int length = s.length();
-        for(int i = length - 1;i >= 0; i--){
-             = s.valueOf(length - i);
-        }
+        String ans = "";
         return ans;
     }
     public static void main(String[] args) {
