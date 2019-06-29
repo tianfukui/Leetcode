@@ -80,7 +80,7 @@ public class NO3 {
         System.out.println("第二种方法:");
         int ans2 = lengthOfLongestSubstring2(input_String);
         System.out.println(ans2);
-        System.out.println("低三种方法:");
+        System.out.println("第三种方法:");
         int ans3 = lengthOfLongestSubstring1(input_String);
         System.out.println(ans3);
     }
