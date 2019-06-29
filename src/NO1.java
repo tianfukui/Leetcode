@@ -25,7 +25,7 @@ public class NO1 {
     public static int[] twoSum(int[] nums,int target){
         int[] ans = new int[]{-1,-1};
         if(nums == null || nums.length < 2) return ans;
-        HashMap<Integer,Integer> map = new HashMap();
+        HashMap<Integer,Integer> map = new HashMap(); //hashmap 键对值
         for(int i = 0; i < nums.length; i++){
             if(map.containsKey(target - nums[i])){
                 ans[0] = map.get(target - nums[i]);
