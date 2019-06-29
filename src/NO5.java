@@ -11,6 +11,10 @@ import java.util.Scanner;
 public class NO5 {
     public static String longestPalindrome(String s) {
         String ans = "";
+        int length = s.length();
+        for(int i = 0; i < length -1; i++){
+
+        }
         return ans;
     }
     public static void main(String[] args) {
