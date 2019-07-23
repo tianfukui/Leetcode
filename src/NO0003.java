@@ -19,6 +19,7 @@ import java.util.Set;
 //Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 public class NO0003 {
     public static int lengthOfLongestSubstring1(String s) {
+        //时间复杂度O(n^3),空间复杂度O(n)
         if(s == null || s.length() == 0) return 0;
         int n = s.length();
         int maxlength = 0;
@@ -39,6 +40,7 @@ public class NO0003 {
         return true;
     }
     public static int lengthOfLongestSubstring2(String s){
+        //时间复杂度O(n^2)，空间复杂度O(n)
         if(s == null || s.length() == 0) return 0;
         int n = s.length();
         Set<Character> set = new HashSet<>();
