@@ -29,6 +29,7 @@ public class NO0008 {
         System.out.println(myAtoi(s));
     }
     public static int myAtoi(String str) {
+        //时间复杂度O(n),空间复杂度O(1)
         long result = 0;
         char c = ' ';
         int i;
