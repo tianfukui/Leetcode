@@ -43,7 +43,7 @@ public class NO0012 {
         System.out.println(intToRoman(num));
     }
     public static String intToRoman(int num) {
-        //时间复杂度O(n),空间复杂度O(n)
+        //时间复杂度O(n) 空间复杂度O(n)
         String ans = "";
         int single_digit = 0, ten_digit = 0, hundred_digit = 0, thousand_digit = 0;
         single_digit = num % 10;
