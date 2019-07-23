@@ -41,7 +41,7 @@ public class NO0013 {
         System.out.println(romanToInt(str));
     }
     public static int romanToInt(String s) {
-        //时间复杂度O(n),空间复杂度O(1)
+        //时间复杂度O(n) 空间复杂度O(1)
         int res = 0;
         for(int i = s.length() - 1; i >= 0; i--){
             if(s.charAt(i) == 'I') {res = res + 1; continue;}
