@@ -22,7 +22,7 @@ public class NO0014 {
         String res = "";
         for(int i = 0; i < strs.length; i++){
             for(int j = 0;j < strs[i].length(); j++){
-                
+                int
             }
         }
         return res;
