@@ -11,6 +11,7 @@
 //    The median is (2 + 3)/2 = 2.5
 public class NO0004 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        //时间复杂度O(n+m),空间复杂度O(n+m)
         double median = 0;
         int length1 = nums1.length;
         int length2 = nums2.length;
