@@ -14,6 +14,7 @@ class ListNode{
     }
 }
 public class NO0002 {
+    //时间复杂度O(n*m)
     public ListNode addTwoNumbers(ListNode l1, ListNode l2){
         ListNode head = null;
         ListNode result = null;
