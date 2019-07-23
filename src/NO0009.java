@@ -19,6 +19,7 @@ public class NO0009 {
         System.out.println(isPalindrome(x));
     }
     public static boolean isPalindrome(int x) {
+        //时间复杂度O(n),空间复杂度O(1)
         if(x < 0) return false;
         int initial_result = x;
         int reversed_result = 0;
