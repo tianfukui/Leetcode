@@ -23,6 +23,7 @@ public class NO0001 {
     }
     //complement the algorithm
     public static int[] twoSum(int[] nums,int target){
+        //时间复杂度O(n),空间复杂度O(n)
         int[] ans = new int[]{-1,-1};
         if(nums == null || nums.length < 2) return ans;
         HashMap<Integer,Integer> map = new HashMap(); //hashmap 键对值
