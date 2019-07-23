@@ -27,6 +27,7 @@ public class NO0006 {
         System.out.println(convert(s,numRows));
     }
     public static String convert(String s, int numRows) {
+        //时间复杂度O(n^2),空间复杂度O(n^2)
         char[][] arraynum = new char[numRows][1000];
         for(int i=0;i<numRows;i++){
             for(int j=0;j<arraynum[i].length;j++){
