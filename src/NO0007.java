@@ -17,6 +17,7 @@ public class NO0007 {
         System.out.println(reverse(num));
     }
     public static int reverse(int x) {
+        //时间复杂度0(n),空间复杂度O(1)
         int result = 0;
         while (x != 0){
             int single_digit = 0;
