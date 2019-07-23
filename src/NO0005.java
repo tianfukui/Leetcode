@@ -8,7 +8,7 @@ import java.util.Scanner;
 //Example 2:
 //    Input: "cbbd"
 //    Output: "bb"
-public class NO5 {
+public class NO0005 {
     public static String longestPalindrome(String s) {
         String ans = "";
         int length = s.length();

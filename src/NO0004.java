@@ -9,7 +9,7 @@
 //    nums1 = [1, 2]
 //    nums2 = [3, 4]
 //    The median is (2 + 3)/2 = 2.5
-public class NO4 {
+public class NO0004 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         double median = 0;
         int length1 = nums1.length;

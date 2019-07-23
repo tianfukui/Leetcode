@@ -17,7 +17,7 @@ import java.util.Set;
 //    Output: 3
 //    Explanation: The answer is "wke", with the length of 3.
 //Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
-public class NO3 {
+public class NO0003 {
     public static int lengthOfLongestSubstring1(String s) {
         if(s == null || s.length() == 0) return 0;
         int n = s.length();

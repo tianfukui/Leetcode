@@ -8,7 +8,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class NO1 {
+public class NO0001 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int target;

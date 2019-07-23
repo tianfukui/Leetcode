@@ -19,7 +19,7 @@ import java.util.Scanner;
 //    A   L S  I G
 //    Y A   H R
 //    P     I
-public class NO6 {
+public class NO0006 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String s = input.nextLine();

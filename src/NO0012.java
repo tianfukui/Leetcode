@@ -36,7 +36,7 @@ import java.util.Scanner;
 //    Input: 1994
 //    Output: "MCMXCIV"
 //    Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
-public class NO12 {
+public class NO0012 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();

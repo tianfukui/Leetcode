@@ -10,7 +10,7 @@ import java.util.Scanner;
 //Example 3:
 //        Input: 120
 //        Output: 21
-public class NO7 {
+public class NO0007 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();

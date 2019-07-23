@@ -22,7 +22,7 @@ import java.util.Scanner;
 //        Output: -2147483648
 //        Explanation: The number "-91283472332" is out of the range of a 32-bit signed integer.
 //        Thefore INT_MIN (−231) is returned.
-public class NO8 {
+public class NO0008 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String s = input.nextLine();

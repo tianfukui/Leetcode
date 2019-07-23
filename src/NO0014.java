@@ -9,7 +9,7 @@ import java.util.Scanner;
 //        Input: ["dog","racecar","car"]
 //        Output: ""
 //        Explanation: There is no common prefix among the input strings.
-public class NO14 {
+public class NO0014 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String[] str = new String[3];

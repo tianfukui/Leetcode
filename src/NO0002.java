@@ -13,7 +13,7 @@ class ListNode{
         this.val = val;
     }
 }
-public class NO2 {
+public class NO0002 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2){
         ListNode head = null;
         ListNode result = null;
