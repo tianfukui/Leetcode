@@ -24,7 +24,7 @@ public class NO0014 {
         String CommonPrefix = strs[0];
         for(int i = 1; i < strs.length; i++){
             while(strs[i].indexOf(CommonPrefix) != 0){
-                CommonPrefix = CommonPrefix.substring(0,CommonPrefix.length() - 1);
+                CommonPrefix = CommonPrefix.substring(0, CommonPrefix.length() - 1);
                 if(CommonPrefix.length() == 0) return "";
             }
         }
