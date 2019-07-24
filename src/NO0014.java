@@ -19,13 +19,16 @@ public class NO0014 {
         System.out.println(longestCommonPrefix(str));
     }
     public static String longestCommonPrefix(String[] strs) {
-        String res = "";
-        for(int i = 0; i < strs.length; i++){
-            for(int j = 0;j < strs[i].length(); j++){
-                int
+        //时间复杂度O(n^2),空间复杂度O(1)
+        if(strs.length == 0) return "";
+        String CommonPrefix = strs[0];
+        for(int i = 1; i < strs.length; i++){
+            while(strs[i].indexOf(CommonPrefix) != 0){
+                CommonPrefix = CommonPrefix.substring(0,CommonPrefix.length() - 1);
+                if(CommonPrefix.length() == 0) return "";
             }
         }
-        return res;
+        return CommonPrefix;
     }
 }
 
