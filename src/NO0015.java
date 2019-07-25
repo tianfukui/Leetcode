@@ -14,6 +14,7 @@ import java.util.List;
 //        ]
 public class NO0015 {
     public List<List<Integer>> threeSum(int[] nums) {
+        //时间复杂度O(n^2),空间复杂度O(1)
         List<List<Integer>> list = new ArrayList<>();
         if(nums.length < 3) return list;
         int len = nums.length;
