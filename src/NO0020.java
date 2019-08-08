@@ -24,9 +24,9 @@ import java.util.Stack;
 public class NO0020 {
     public boolean isValid(String s) {
         HashMap<Character, Character> maptable = new HashMap<Character, Character>();
-        maptable.put('(', ')');
-        maptable.put('[', ']');
-        maptable.put('{', '}');
+        maptable.put(')', '(');
+        maptable.put(']', '[');
+        maptable.put('}', '{');
         Stack<Character> stack = new Stack<>();
         for(int i = 0; i < s.length(); i++){
             char c = s.charAt(i);
