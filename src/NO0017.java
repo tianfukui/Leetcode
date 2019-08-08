@@ -8,6 +8,7 @@ import java.util.List;
 //        Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 
 public class NO0017 {
+    //时间复杂度，空间复杂度
     private final String[] pad = {
             "","*","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"
     };
