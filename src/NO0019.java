@@ -11,7 +11,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-
+//时间复杂度O(N),空间复杂度O(1)
 public class NO0019 {
     public ListNode removeNthFromEnd(ListNode head, int n){
         ListNode list = new ListNode(0);
